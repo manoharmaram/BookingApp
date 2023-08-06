@@ -12,6 +12,7 @@ import Cartimg from '../src/img/grocery-store.png';
 import Cart from './components/cart'
 import Login from './components/login';
 import Loginimg from '../src/img/enter.png';
+import Booknow from './components/Booknow';
 
 
 
@@ -38,6 +39,7 @@ function App() {
 <Route path="more" element={<More/>}/>
 <Route path="cart" element={<Cart/>}/>
 <Route path="login" element={<Login/>}/>
+<Route path="Booknow" element={<Booknow/>}/>
 </Routes>
       </footer>
       
