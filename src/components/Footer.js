@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className='footer'>
       <div className='container-Footer'>
         <div id='box1' className='box'>
-          <p  id='F-heading'>Opening Hours manu</p>
+          <p  id='F-heading'>Opening Hours</p>
           <table>
             <tbody>
               <tr><td>Mon</td><td>09:00 - 23:00</td></tr>
