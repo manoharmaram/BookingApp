@@ -1,50 +1,57 @@
+
 /* /////////HEADER//////////// */
-  nav {
+  nav{
     text-align: right;
-margin-top: 40px;
-margin-right: 40px;
-
-    font-size: 20px;
-    /* font-weight: bolder; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    padding: 20px;
   }
-  nav a{
-    padding-left: 20px;
-    text-decoration: none;
-
-  }
-
   .H-Name{
     margin: 20px 15px 20px 15px;
   }
- 
+  .profile_button{
+     background-color: #337ab7;
+     color: black;
+     height: 30px;
+     width: 150px;;
+  }
 
 /* //////////Main////////////// */
 .booking{
+  /* background-image: url('https://mohammedthoufiq.simplybook.me/v2/themes/assets/img/categories/appearance.jpg'); */
   text-align: center;
   border: 50px;
-  padding-top: 200px;
-  padding-bottom: 0px;
 }
-
-
-
-button{
+.button_main{
     background-color: #054875;
     color: #e1e8e0;
-    margin: 10px;
+    margin: 50px;
     min-height: 50px;
-    min-width: 140px;
-    border-radius: 5px;
 
   }
 /* /////////FOOTER//////////// */ 
-.container-Footer {
+.button_service1{
+margin: 5px;
+padding: 10px;
+width: 240px;
+}
+.button_service2{
+  margin: 5px;
+  padding: 10px;
+  width: 240px;
+  background-color: #054875;
+  }
+.search-div{
+  background-color: white;
+}
+.search{
+  padding: 10px;
+  margin: 10px;
+}
+.container-Footer,.main-service-div {
   float: flex;
   max-width: 1366px;
   height: 250px;
   background-color: #e1e8e0;
+ 
   padding: 30px;
 }
 .container-Footer div {
@@ -52,6 +59,7 @@ button{
   width: 20%;
   height: 260px;
 }
+
 #box1,#box2,#box3 {
   background-color: white;
   margin-left: 30px;
@@ -61,11 +69,12 @@ button{
   box-sizing: border-box;
   color: #333333;  
   box-sizing: border-box;
-  width:auto;
+  width:max-content;
   text-align: left;
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  
 }
 #contact{
   color: #337ab7;

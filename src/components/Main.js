@@ -1,24 +1,15 @@
-import React from 'react'
-import '../App.css';
-import Bgimg from '../img/appearance1.jpg'
-import styled from "styled-components";
 
-const BookingImg = styled.div`
-background-image: url(${Bgimg});
-width: auto;
-height: auto;
-`
+import '../App.css';
 
 export default function Main() {
-  return (
+  return (  
     <main id='main'> 
 
-      <BookingImg className='booking'>
+      <div className='booking'>
+        {/* <img src='https://mohammedthoufiq.simplybook.me/v2/themes/assets/img/categories/appearance.jpg' alt=''></img> */}
       <h1 >Muhammathrafiq</h1>
-      <button>Book Now <i className="fa fa-check fa-check"></i></button>
-      </BookingImg>
-
-      
+      <button className='button_main'>Book Now <i className="fa fa-check fa-check"></i></button>
+      </div>       
     </main>
     
   )
