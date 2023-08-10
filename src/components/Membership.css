@@ -1,0 +1,53 @@
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapper-details {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px auto;
+    background: #f1f0f0;
+    text-align: center;
+}
+
+.detail-login-step {
+    max-width: 780px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.detail-step__item .left-side {
+    width: 65%;
+}
+
+.form-group .password {
+    background: red;
+}
+
+.detail-step__item-sign-in {
+    text-align: left;
+}
+
+
+
+.detail-step__item .right-side {
+    width: 65%;
+}
+
+.detail-step__item-sign-up {
+    text-align: left;
+
+}
+

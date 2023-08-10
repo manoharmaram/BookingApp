@@ -11,6 +11,7 @@ import Twitter from '../img/twitter.png';
 
 
 export default function Login() {
+  
   const [isOpen, setIsOpen] = useState(false);
   const [password, setPassword] = useState("");
 const [type, setType] = useState('password');
@@ -69,4 +70,5 @@ const [icon, setIcon] = useState(eyeOff);
       </main>
     </div>
   )
+  
 }

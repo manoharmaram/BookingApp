@@ -1,0 +1,28 @@
+
+  
+textarea {
+    resize: vertical;
+    height: 100px;
+    width: 300px;
+    margin-left: 98px;
+    margin-top: 20px;
+}
+input{
+    width: 300px;
+    resize: vertical;
+    height: 40px;
+    margin-left: 28px;
+    margin-top: 0px;
+}
+button{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    background-color: rgba(2, 54, 118, 0.584);
+}
+.sub-rev{
+    padding-left: 30px;
+    
+}

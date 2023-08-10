@@ -11,9 +11,9 @@ top: 0;
 left: 0;
 `
 const Box = styled.div`
-position: relative;
+
 width: 30%;
-margin: 0 auto;
+margin-left: 820px;
 height: auto;
 max-height: 70vh;
 margin-top: calc(100vh - 85vh - 20px);
